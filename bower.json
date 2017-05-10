@@ -1,0 +1,25 @@
+{
+  "name": "huichiwang",
+  "description": "",
+  "main": "",
+  "authors": [
+    "roy gu <sirgujingwei@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4",
+    "bootstrap": "boostrap#^3.3.7",
+    "components-font-awesome": "^4.7.0",
+    "magnific-popup": "^1.1.0",
+    "scrollreveal": "^3.3.5"
+  }
+}
