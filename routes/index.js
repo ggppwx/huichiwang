@@ -11,7 +11,9 @@ var isAuthenticated = function (req, res, next) {
 }
 
 /* GET home page. */
-router.get('/', function(req, res, next) {
+router.get('/', isAuthenticated, function(req, res, next) {
+   console.log('index.js');
+   console.log(req.user);
   res.render('index', { user: req.user });
 });
 

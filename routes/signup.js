@@ -11,11 +11,15 @@ router.get('/', function(req, res, next) {
 router.post('/', function(req, res) {
       User.register(new User({ username : req.body.username }), req.body.password, function(err, account) {
           if (err) {
+          	console.log('error in register ...');
             return res.render("signup", {info: "Sorry. That username already exists. Try again."});
           }
 
           passport.authenticate('local')(req, res, function () {
-            res.redirect('/');
+          	console.log(res);
+            res.render('/', {
+            	user : 'test'
+            });
           });
       });
 });

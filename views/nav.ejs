@@ -32,6 +32,19 @@
                     <li>
                         <a class="page-scroll" href='/pricing'>价格</a>
                     </li>
+
+                    <% if (!locals.user ) { %>
+
+                    <li>
+                        <a class="page-scroll" href="/login">登录</a>
+                    </li>
+
+                    <% } else { %>
+                    <li>
+                        <a class="page-scroll" href="/logout">退出</a>
+                    </li>
+
+                    <%} %>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
