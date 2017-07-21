@@ -468,7 +468,7 @@ section h3.section-subheading {
     left: 50%;
   }
   .timeline > li {
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     min-height: 100px;
   }
   .timeline > li .timeline-panel {
@@ -520,7 +520,7 @@ section h3.section-subheading {
     min-height: 170px;
   }
   .timeline > li .timeline-panel {
-    padding: 0 20px 20px 100px;
+    padding: 0 20px 20px 20px;
   }
   .timeline > li .timeline-image {
     width: 70px;
@@ -531,7 +531,7 @@ section h3.section-subheading {
     margin-top: 40px;
   }
   .timeline > li.timeline-inverted > .timeline-panel {
-    padding: 0 100px 20px 20px;
+    padding: 0 20px 20px 20px;
   }
 }
 .team-member {
@@ -668,7 +668,9 @@ section#product .checklist-item-des {
   margin-left: 60px;
 }
 
-
+section#product .content-details a#pricing-btn {
+  margin-top: 30px;
+}
 
 
 
